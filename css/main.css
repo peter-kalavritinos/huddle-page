@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins&display=swap');
 body {
     background-color: #604cac;
-    background-image: url(".images/bg-desktop.svg");
+    background-image: url("../images/bg-desktop.svg");
+}
+
+header img {
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 .main {
@@ -30,4 +35,59 @@ body {
 .p {
     font-family: 'Open-sans', sans-serif;
     font-size: 18px;
+}
+
+button .button {
+    border: none;
+    background-color: var(--white);
+    color: var(--voilet);
+    padding: 15px 60px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.social-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-top: 200px;
+}
+
+.social-icons i {
+    width: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    height: 40px;
+    margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.social-icons i:hover {
+    background-color: var(--soft-magenta);
+}
+
+footer {
+    font-family: 'open-sans', sans-serif;
+    text-align: center;
+    color: #ffffff
+}
+
+footer a {
+    color: #ffffff
 }
